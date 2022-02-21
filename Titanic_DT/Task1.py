@@ -223,7 +223,7 @@ print(models.sort_values(by='Score', ascending=False))
 
 fig = plt.figure()
 tree.plot_tree(decision_tree, feature_names = feature_names, class_names=class_names, filled = True)
-plt.show()
+#plt.show()
 
 kf = KFold(n_splits=5)
 decision_tree=DecisionTreeClassifier(criterion='gini')#, max_depth=3)
